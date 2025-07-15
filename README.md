@@ -1,22 +1,19 @@
- # 🐼 Pandas Exercises
+# 🐼 Pandas Exercises
 
 This repository contains beginner-friendly exercises and examples for learning and practicing **data cleaning and manipulation using Python and pandas**.
 
-## 📁 Folder Structure
+## 📁 Files Included
 
-pandas_exercises/
-├── wrong_data.csv
-├── wrong_data.py
-├── cleaning_empty_cells.py
-└── more_exercises_coming_soon.py
+- `wrong_data.csv` – Sample CSV file with duplicate data.
+- `wrong_data.py` – Python script to read CSV, clean duplicates.
+- `cleaning_empty_cells.py` – Example for handling missing values (coming soon).
+- More exercises will be added progressively.
 
- 
+---
 
-## 📌 Example: Removing Duplicates
+## 🧪 Example: Remove Duplicates
 
-### File: `wrong_data.csv`
-
-Sample data with duplicate entries:
+### 📄 wrong_data.csv
 
 ```csv
 Name,Duration
@@ -27,55 +24,40 @@ Alice,30
 David,60
 Bob,45
 Eve,55
-File: wrong_data.py
+🐍 wrong_data.py
 python
- 
+Copy
+Edit
 import pandas as pd
 
-# Load the data
+# Load CSV file
 df = pd.read_csv("wrong_data.csv")
 
-# Display original data
+# Show original data
 print("Original Data:")
 print(df)
 
 # Remove duplicates
 df_cleaned = df.drop_duplicates()
 
-# Display cleaned data
+# Show cleaned data
 print("\nAfter Removing Duplicates:")
 print(df_cleaned)
-✅ Topics Covered
-Reading CSV files using pandas.read_csv
+✅ What You’ll Learn
+How to load CSV files using pandas
 
-Fixing specific cell values using .loc[]
+Access and modify specific cells
 
-Converting columns to datetime using pd.to_datetime
+Handle duplicate rows using .drop_duplicates()
 
-Removing duplicate rows using .drop_duplicates()
+Print full DataFrames using .to_string()
 
-Printing full DataFrames with .to_string()
-
-🔧 Requirements
-Python 3.10 or later
+💻 Requirements
+Python 3.10+
 
 pandas
 
-Install pandas if you haven't:
+Install with pip:
 
  
 pip install pandas
-🚀 More exercises coming soon...
-Handling missing values
-
-Filtering rows
-
-Aggregation and grouping
-
-Merging datasets
-
-Plotting with pandas & matplotlib
-
-👨‍💻 Author
-Ashok Dahal
-📍 Nepal
