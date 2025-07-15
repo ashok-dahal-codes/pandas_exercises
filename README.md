@@ -10,11 +10,7 @@ pandas_exercises/
 ├── cleaning_empty_cells.py
 └── more_exercises_coming_soon.py
 
-yaml
-Copy
-Edit
-
----
+ 
 
 ## 📌 Example: Removing Duplicates
 
@@ -33,8 +29,7 @@ Bob,45
 Eve,55
 File: wrong_data.py
 python
-Copy
-Edit
+ 
 import pandas as pd
 
 # Load the data
@@ -68,9 +63,7 @@ pandas
 
 Install pandas if you haven't:
 
-bash
-Copy
-Edit
+ 
 pip install pandas
 🚀 More exercises coming soon...
 Handling missing values
